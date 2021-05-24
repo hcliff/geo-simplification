@@ -5,9 +5,9 @@ import (
 
 	"github.com/dhconnelly/rtreego"
 	"github.com/golang/geo/s2"
+	"github.com/hcliff/geo-simplification/internal"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"gitlab.com/hcliff/geo-simplification/internal"
 )
 
 func buildRtree(pointList internal.VertexCollection) (*rtreego.Rtree, error) {

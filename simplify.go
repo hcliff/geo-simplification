@@ -2,7 +2,7 @@ package geosimplification
 
 import (
 	"github.com/golang/geo/s2"
-	"gitlab.com/hcliff/geo-simplification/internal"
+	"github.com/hcliff/geo-simplification/internal"
 )
 
 func SimplifyLine(
