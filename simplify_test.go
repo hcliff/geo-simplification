@@ -4,10 +4,10 @@ import (
 	"testing"
 
 	"github.com/golang/geo/s2"
+	geosimplification "github.com/hcliff/geo-simplification"
+	"github.com/hcliff/geo-simplification/internal"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	geosimplification "gitlab.com/hcliff/geo-simplification"
-	"gitlab.com/hcliff/geo-simplification/internal"
 )
 
 func TestSimplify(t *testing.T) {
